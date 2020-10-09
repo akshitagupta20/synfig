@@ -423,7 +423,7 @@ static BorderList *extractBorders(const Handle &ras, int threshold, int despeckl
               outerBorders.push_back(foundPath);
 	    }
 	     
-        }
+	  }
 
         // If leaving a white region, remember it - in order to establish
         // border hierarchy in the future
